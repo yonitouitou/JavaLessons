@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BankAccountSynchronized/BankAccountSynchronized.iml" filepath="$PROJECT_DIR$/BankAccountSynchronized/BankAccountSynchronized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Process/Process.iml" filepath="$PROJECT_DIR$/Process/Process.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProducerConsumerThreads/ProducerConsumerThreads.iml" filepath="$PROJECT_DIR$/ProducerConsumerThreads/ProducerConsumerThreads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingletonRaceCondition/SingletonRaceCondition.iml" filepath="$PROJECT_DIR$/SingletonRaceCondition/SingletonRaceCondition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadActions/ThreadActions.iml" filepath="$PROJECT_DIR$/ThreadActions/ThreadActions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread/ThreadBuilders/ThreadBuilders.iml" filepath="$PROJECT_DIR$/Thread/ThreadBuilders/ThreadBuilders.iml" />
+    </modules>
+  </component>
+</project>
