@@ -1,7 +1,7 @@
 public class DoubleCheckedDBConnection {
 
     private static final Object LOCK = new Object();
-    private static DoubleCheckedDBConnection INSTANCE;
+    private static volatile DoubleCheckedDBConnection INSTANCE;
     private final String mysqlConnectionString;
 
     private DoubleCheckedDBConnection() {
