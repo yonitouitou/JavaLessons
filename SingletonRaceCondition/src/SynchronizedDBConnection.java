@@ -1,7 +1,7 @@
 public class SynchronizedDBConnection {
 
     private static final Object LOCK = new Object();
-    private static volotile SynchronizedDBConnection INSTANCE;
+    private static volatile SynchronizedDBConnection INSTANCE;
     private final String mysqlConnectionString;
 
     private SynchronizedDBConnection() {
