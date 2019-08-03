@@ -8,12 +8,12 @@ public class AtomicAccount {
         balance = new AtomicLong(initial);
     }
 
-    public synchronized void addCash(long value) {
+    public void addCash(long value) {
         balance.addAndGet(value);
         sendSms();
     }
 
-    public synchronized void takeCash(long value) {
+    public void takeCash(long value) {
         balance.getAndAdd(value * -1);
         sendSms();
     }
