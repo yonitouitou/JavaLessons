@@ -23,7 +23,7 @@ public class ConsumerByWaitNotifyDeadlock implements Runnable {
         }
         synchronized (rabbitMq) {
             System.out.println(ThreadUtil.prefixThreadName() + " - Message received : " + msg + " - Notify producers");
-            ThreadUtil.notifyy(rabbitMq);
+            ThreadUtil.notifyyAll(rabbitMq);
         }
     }
 }

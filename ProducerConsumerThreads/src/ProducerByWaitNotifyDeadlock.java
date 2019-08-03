@@ -25,7 +25,7 @@ public class ProducerByWaitNotifyDeadlock implements Runnable {
         }
         synchronized (rabbitMq) {
             System.out.println(ThreadUtil.prefixThreadName() + " - Message inserted : " + msg + " - Notify consumers");
-            ThreadUtil.notifyy(rabbitMq);
+            ThreadUtil.notifyyAll(rabbitMq);
         }
     }
 }

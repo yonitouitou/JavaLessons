@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BankAccountSynchronized/BankAccountSynchronized.iml" filepath="$PROJECT_DIR$/BankAccountSynchronized/BankAccountSynchronized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BankAccountCriticalSection/BankAccountCriticalSection.iml" filepath="$PROJECT_DIR$/BankAccountCriticalSection/BankAccountCriticalSection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Executors/Executors.iml" filepath="$PROJECT_DIR$/Executors/Executors.iml" />
       <module fileurl="file://$PROJECT_DIR$/Process/Process.iml" filepath="$PROJECT_DIR$/Process/Process.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProducerConsumerThreads/ProducerConsumerThreads.iml" filepath="$PROJECT_DIR$/ProducerConsumerThreads/ProducerConsumerThreads.iml" />
       <module fileurl="file://$PROJECT_DIR$/SingletonRaceCondition/SingletonRaceCondition.iml" filepath="$PROJECT_DIR$/SingletonRaceCondition/SingletonRaceCondition.iml" />

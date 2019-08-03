@@ -10,7 +10,7 @@ public class ThreadActions {
         t2 = new Thread(new RunnableCounter(11, 20));
         t3 = new Thread(new RunnableCounter(21, 30));
 
-        concurrentExecution();
+        //concurrentExecution();
         serialExecution();
     }
 

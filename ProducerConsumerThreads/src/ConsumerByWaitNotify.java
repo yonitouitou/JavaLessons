@@ -1,3 +1,5 @@
+import java.util.concurrent.atomic.AtomicLong;
+
 public class ConsumerByWaitNotify implements Runnable {
 
     private final RabbitMq rabbitMq;
@@ -21,7 +23,7 @@ public class ConsumerByWaitNotify implements Runnable {
                 ThreadUtil.waitt(rabbitMq);
             }
             System.out.println(ThreadUtil.prefixThreadName() + " - Message received : " + msg + " - Notify producers");
-            ThreadUtil.notifyy(rabbitMq);
+            ThreadUtil.notifyyAll(rabbitMq);
         }
     }
 }

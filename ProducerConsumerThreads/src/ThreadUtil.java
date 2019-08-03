@@ -13,7 +13,7 @@ public final class ThreadUtil {
         }
     }
 
-    public static void notifyy(Object lock) {
+    public static void notifyyAll(Object lock) {
         lock.notifyAll();
     }
 

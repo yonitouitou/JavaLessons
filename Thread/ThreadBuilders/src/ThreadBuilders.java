@@ -8,10 +8,10 @@ import java.time.format.DateTimeFormatter;
 public class ThreadBuilders {
 
     public static void main(String[] args) {
-        byThreadClass();
-        byRunnableInterface();
-        byLambdaExpression();
-        byAnonymousClass();
+        //byThreadClass();
+        //byRunnableInterface();
+        //byLambdaExpression();
+        //byAnonymousClass();
     }
 
     private static void byThreadClass() {
@@ -36,7 +36,7 @@ public class ThreadBuilders {
                 i++;
             }
         };
-        new Thread(r).start();
+        new Thread(r, "MyThread").start();
     }
 
     private static void byAnonymousClass() {

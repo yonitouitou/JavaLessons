@@ -1,4 +1,3 @@
-import java.awt.*;
 import java.util.UUID;
 
 public class ProducerByWaitNotify implements Runnable {
@@ -24,7 +23,7 @@ public class ProducerByWaitNotify implements Runnable {
                 ThreadUtil.waitt(rabbitMq);
             }
             System.out.println(ThreadUtil.prefixThreadName() + " - Message inserted : " + msg + " - Notify consumers");
-            ThreadUtil.notifyy(rabbitMq);
+            ThreadUtil.notifyyAll(rabbitMq);
         }
     }
 }
