@@ -2,8 +2,8 @@ public class ProducerConsumerThreads {
 
     public static void main(String[] args) {
         //runWithSleepAlgo();
-        runWithWaitNotifyAlgo();
-        //runWithWaitNotifyDeadlock();
+        //runWithWaitNotifyAlgo();
+        runWithWaitNotifyDeadlock();
     }
 
     private static void runWithSleepAlgo() {
